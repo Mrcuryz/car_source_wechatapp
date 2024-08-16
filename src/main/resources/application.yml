@@ -1,0 +1,7 @@
+spring:
+  datasource:
+    url: jdbc:sqlite:D:\\VehicleSource\\CarSource\\src\\main\\resources\\data\\hs_logistics.db3
+    driver-class-name: org.sqlite.JDBC
+  mybatis:
+    mapper-locations: classpath:mapper/*.xml
+    type-aliases-package: com.app.entity

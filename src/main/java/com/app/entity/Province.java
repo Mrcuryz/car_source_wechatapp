@@ -1,0 +1,35 @@
+package com.app.entity;
+
+import java.io.Serializable;
+
+public class Province implements Serializable {
+
+    private Long id;
+    private String province;
+    private String city;
+
+    // Getters and Setters
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public String getProvince() {
+        return province;
+    }
+
+    public void setProvince(String province) {
+        this.province = province;
+    }
+
+    public String getCity() {
+        return city;
+    }
+
+    public void setCity(String city) {
+        this.city = city;
+    }
+}
